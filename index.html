@@ -1,0 +1,238 @@
+<!--Name: Heba Wali
+    Course: Web Development P4
+    Teacher: Ms. Hoitink
+    School: Pembina Trails Collegiate
+    Date Last Modified: Nov 17, 2024
+    -->
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <!--Linking external CSS to HTML-->
+    <link rel="stylesheet" href="CSS/external-css.css">
+
+    <!--Internal Styling-->
+    <style>
+        /*Stling the Body*/
+        body {
+            text-align: center;
+        }
+
+        /*Styling this wepage's paragraphs*/
+        p {
+            margin-left: 6.5%;
+            margin-right: 10%;
+        }
+
+        /*Styling section1 in this home page*/
+        #section1 {
+            background-color: #DCF0F8;
+            margin-left: 3.5%;
+            margin-right: 40%;
+            border-style: dotted;
+        }
+
+
+        /*Styling section2 in this home page*/
+        #section2 {
+            background-color: #DCF0F8;
+            margin-left: 3.5%;
+            margin-right: 47%;
+            margin-top: 5%;  
+            border-style: dotted;          
+        }
+
+        /*Styling the unordered list of Community names*/
+        #community-names {
+            list-style: disc;
+        }
+
+        /*The list items for Community names in block format*/
+        .internal-list {
+            display: block;
+            text-align: left;
+            margin-left: 150px;
+        }
+
+        /*Figure 1 and it's figcaption*/
+        #fig1{
+            border: 5px solid #b3ceda;
+            position: absolute;
+            top: 33%;
+            right: 10%;
+        }
+        #fig-c1 {
+            position: absolute;
+            top: 65%;
+            right: 7%;
+            left: 72%;
+        }
+
+        /*Figure 2 and it's figcaption*/
+        #fig2 {
+            border: 5px solid #b3ceda;
+            position: absolute;
+            width: 25%;
+            height: 30%;
+            top: 90%;
+            right: 15%
+        }
+        #fig-c2 {
+            position: absolute;
+            top: 120%;
+            margin-left: 57%;        
+        }
+
+        /*Figure 3 and it's figcaption*/
+        #fig3 {
+            border: 5px solid #b3ceda;
+            position: absolute;
+            width: 30%;
+            height: 25%;
+            top: 130%;
+            right: 10%
+        }
+        #fig-c3 {
+            position: absolute;
+            top: 119%;
+            right: 10%
+        }
+    </style>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, user scalable=yes">
+    <title>All About Treaty 1 - Home</title>
+</head>
+
+<body>
+    <header>
+        <!--Main Title Heading-->
+        <h1 class="main-title-heading"><u>All About <span class="treaty-1">Treaty 1</u></span></h1>
+
+        <!--Navigation Bar-->
+        <div class="nav-bar">
+            <nav>
+                <ul>
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="page2.html">Maps</a></li>
+                    <li><a class="nav-link" href="page3.html">Additional Information</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        </br>
+
+        <!--Heading for the specific page-->
+        <h2 class="page-heading">Generics and Historic Terms of <span class="treaty-1">Treaty 1</span></h2>
+    </header>
+
+    <main>
+        </br>
+        </br>
+        <!--Section 1: General Information About Treaty 1-->
+        <section>
+            <div id="section1">
+                <!--First Paragraph-->
+                <h3 class="sub-heading">General Information About <span class="treaty-1">Treaty 1</span></h3>
+                <p>Treaty 1 is an agreement between The Crown and Anishinaabe and Muskegon Cree peoples. The Indigenous people of that area 
+                    had to give some of their land to The Crown, in return of money and farming provisions. Some things they were expected to recieve included 
+                    payments, reserves, tools/livestock, and education. It was signed in Lower Fort Garry in Winnipeg, Manitoba. 
+                    Treaty 1's negotiations started on July 27, 1871 in Lower Fort Garry, and was later signed on August 3rd, 1871.</p>
+                <!--Reference Link-->
+                <a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2#:~:text=On%203%20August%201871%2C%20Treaty,they%20needed%20for%20the%20future." target="_blank">The Canadian Encyclopedia</a>
+                <!--List of Indigenous Communites-->
+                <p> The First Nations communities that are involved and represented by this Treaty include:</p>
+                <ul id="community-names">
+                    <li class="internal-list">Peguis First Nation</li>
+                    <li class="internal-list">Sagkeeng First Nation</li>
+                    <li class="internal-list">Brokenhead Ojibway Nation</li>
+                    <li class="internal-list">Roseau River Anishinaabe</li>
+                    <li class="internal-list">Long Plain First Nation</li>
+                    <li class="internal-list">Sandy Bay Ojibway First Nation</li>
+                    <li class="internal-list">Swan Lake First Nation</li>
+                </ul>
+
+                <!--Signing of Treaty 1 Image-->
+                <fig>
+                    <img id="fig1" src="Images/CET1 signing.jpg" 
+                    alt="Representatives of the Crown and Indigenous communities negotiating and signing Treaty 1 in Lower Fort Garry in southern Manitoba.
+                    (from the Canadian Illustrated News, 1871/courtesy Glenbow Museum and Archives NA-1406-72)">
+                    <!--Signing of Treaty 1 figcaption and reference link-->
+                    <figcaption id="fig-c1">
+                        <p class="fig-cap">
+                        Representatives of the Crown and Indigenous communities negotiating and signing Treaty 1 in Lower Fort Garry in southern Manitoba.
+                        (from the Canadian Illustrated News, 1871/courtesy Glenbow Museum and Archives NA-1406-72)</p>
+                        <a  href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank">Sourced from The Canadian Encyclopedia.</a>
+                    </figcaption>
+                </fig>    
+            </div>
+        </section>
+
+
+
+        <!--Section 2: Historic Terms, and How Treaty 1 is Different from Other Treaties in Canada-->
+        <section>
+            <div id="section2">
+                <!--Historic Terms/What was Included-->
+                <h3 class="sub-heading">Historic Terms of <span class="treaty-1">Treaty 1</span> (What was Included)</h3>
+                <p>The biggest reason why Treaty 1 was signed was because both sides thought the Treaty was for their benefit. 
+                    The Indigenous people were looking for a way to adapt to the settlers. They wanted to survive and protect 
+                    their traditional lands, hence why this agreement was significant to them. For The Crown, they wanted a way to 
+                    have control over the Indigenous people and their land. Queen Victoria  was referred to as the "Great Mother" 
+                    in the Treaty. She wanted to deal fairly and desired for the Indigenous people to adopt more agriculture.
+                    The represenative that was responsible for signing Treaty 1 for The Crown was the Governor of 
+                    Manitoba, Adams George Archibald. Archibald wanted to ensure and "facilitate" the European settlements, while also 
+                    focusing on the assimilation of Indigenous people.</p>
+                <!--Reference Link-->
+                <a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank">The Canadian Encyclopedia</a>
+
+                <p>During the negotiating, Archibald introduced the idea of "reserves". He was still annoyed that the Indigenous people 
+                    would still have freedom over their land, which he didn't want. To limit the expression of Indigenous people's way of life, 
+                    it was stated that these lands would be taken from the reserves in the future when they were "needed for use".</p>
+                <!--Reference Link-->
+                <a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank">The Canadian Encyclopedia</a>
+
+                <!--Great Mother Treaty Image-->
+                <fig>
+                    <img id="fig2" src="Images/treaty 1 great mother.png" alt="Written text of Treaty 1 stating the rules and usage of Indigenous reserves.">
+                    <!--Great Mother Image figcaption and reference link-->
+                    <figcaption id="fig-c2">
+                        <p class="fig-cap">Written text of Treaty 1 stating the rules and usage of Indigenous reserves.</p>
+                        <a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank">Sourced from The Canadian Encyclopedia.</a>
+                    </figcaption>
+                </fig>
+
+                <p>In the Treaty, it was stated that each Indigenous Band was to get a reserve large enough that it could provide 160 acres of land 
+                    for each family of five. Smaller and larger families would get the acres in like proportions. Also, every Indigenous person was going 
+                    to recieve a one-time gratuity of 3 dollars. Equally, they would get a yearly annituity of 15 dollars for each family of five. Other 
+                    things that the Indigenous reserves would get included [residential] schools and no availibility for liquor. If Indigenous 
+                    people wanted these reserves, they had to "cede, release, surrender, and yield" tracts of land to the Queen.</p>
+                <!--Reference Link-->
+                <a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank">The Canadian Encyclopedia</a>
+
+                <!--Surrendering Land to the Queen Image-->
+                <fig>
+                    <img id="fig3" src="Images/surrending-land-to-queen-Treaty1.png" alt="Written text of Treaty 1 stating what areas of land Indigenous people should give and how they should give it.">
+                    <!--Surrendering Land to the Queen Image figcaption and reference link-->
+                    <figcaption id="fig-c3">
+                        <p class="fig-cap" style= "font-size: x-small; margin-right: 20px; margin-top: 360px;">Written text of Treaty 1 stating what areas of land Indigenous people should give and how they should give it.</p>
+                        <a href="https://www.thecanadianencyclopedia.ca/en/article/treaties-1-and-2" target="_blank">Sourced from The Canadian Encyclopedia.</a>
+                    </figcaption>
+                </fig>
+            </div>
+        </section>
+
+        </br></br></br></br>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <p class="footer-p">Copyright Heba Wali's Web Project 3 &copy;</p>
+            <p class="footer-p">All Rights Reserved</p>
+            <!--Back to Top-->
+            <a  style="text-align: center; color:black;" href="index.html">Back to Top</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,117 @@
+/*
+Color Family and Why it represents the Purpose of the Website
+
+Primary Color: Light Blue (#B0D6E6)
+Accent Colors: Colombia Blue (#B3CEDA) and Azure Web (#DCF0F8)
+Neutral Color: Platinum (#DFE4E6)
+This is an analogous color scheme.
+
+I think this color family fits the purpose of this website
+because blue is used to represent reliability and professionalism.
+The blues will make the information seem more reliable to the audience, 
+making them read it more. Another reason I used blue was because it's 
+a historic website, and blue is good for representing reliable information.
+*/
+
+/*HTML Size*/
+html {
+    font-size: 62.5%;
+}
+
+/*Styling the body*/
+body {
+    font-size: 1.6rem;
+    background-color: #DFE4E6;
+    line-height: 140%;
+}
+
+/*Styling the Main Headings*/
+.main-title-heading {
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Styling the headings about specific pages*/
+.page-heading {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Styling Sub-Headings*/
+.sub-heading {
+    margin-left: 5%;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}      
+
+/*Paragraphs and their margining*/
+p {
+    line-height: 140%;
+    margin-left: 3%;
+    margin-right: 3%;
+    size: 16px;;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/*Styling the Fig Captions*/
+.fig-cap {
+    font-size: x-small;
+    line-height: 140%;
+    text-align: center;
+}
+
+/*Styling the word "Treaty 1"*/
+.treaty-1 {
+    color: red;
+}
+
+/*Unordered List*/
+ul {
+    list-style: none;
+    font-size: small;
+}
+
+/*List Elements for the Nav Bar*/
+li {
+    margin: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/*Styling the ELEMENTS in the Nav Bar*/
+.nav-link {
+    padding: 5px;
+    margin: 4px;
+    border-radius: 10%;
+    border: 2%;
+    border: solid;
+    border: black;
+    background-color: #b3ceda;
+    color: #000000;
+}
+
+/*Changing the appearance of the nav links when hovered*/
+.nav-link:hover {
+    background-color: #DCF0F8 ;
+}
+
+/*Styling the ACTUAL Nav Bar for EACH webpage*/
+.nav-bar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 25px;
+    background-color: #B0D6E6
+}
+
+/*Styling the footer for each webpage*/
+.footer {
+    background-color: #B0D6E6
+}
+
+/*Styling the footer's paragraphs*/
+.footer-p {
+    text-align: center;
+}
+
